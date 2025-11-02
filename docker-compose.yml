@@ -1,0 +1,14 @@
+services:
+  ender_dragon:
+    image: ender_dragon:latest
+    container_name: ender_dragon_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    ports:
+      - "6767:6767"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=6767
