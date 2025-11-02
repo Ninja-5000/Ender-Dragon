@@ -296,8 +296,11 @@ const App: React.FC = () => {
           >
             Awaken the Dragon
           </button>
-          <p className="absolute bottom-8 text-purple-400">
+          <p className="absolute bottom-10 text-purple-400">
             Created by Carmelo Canavan
+          </p>
+          <p className="absolute bottom-4 text-sm text-gray-400">
+            &copy; 2025 Ninja-5000.
           </p>
         </>
       )}
